@@ -21,7 +21,7 @@ public class Cheers {
                 }
                 System.out.println("What does that spell?");
                 for (int n = 0; n < number;n++) {
-                        System.out.println(name + "! ! !");
+                        System.out.println(name + "!!!");
                 }
             } // Replace this comment with your code
         }
