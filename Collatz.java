@@ -25,14 +25,8 @@ public class Collatz {
 			}
 			seed++ ;
 		}
-		if (seed == n + 1 && mode == 'v'){
-		    System.out.println();
+		if (seed == n + 1){
 		    System.out.println("Every one of the first " + n + " hailstone sequences reached 1.");
-		} else {
-			if (seed == n + 1 && mode == 'c') {
-				System.out.println("Every one of the first " + n + " hailstone sequences reached 1.");
-			}
-
 		} // Replace this comment with your code
 	}
 }
